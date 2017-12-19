@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+}
+table{
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    left: 65vmin;
+    border: 5px solid black;
+    background-color: #ebe9ea;
+}
+th{
+    width: 800px;
+    background-color: #d0d0d0;
+    height: 100px;
+    width: 150px;
+    border-bottom: 2px solid black;
+}
+.today{
+    color: white;
+    background-color: black;
+}
+td:hover{
+    background-color: red;
+    transform: scale(1.1, 1.1);;
+    transition-duration: 1.5s;
+    opacity: 1;
+}
+    .wrongMonth{
+        color: grey;
+        
+    }
